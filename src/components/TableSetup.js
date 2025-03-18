@@ -45,15 +45,15 @@ const TableSetup = ({ displayUnit, bigBlindSize, onPlayersUpdate }) => {
   // Seat positions for the canvas (in relative coordinates 0-1)
   const seatPositions = [
     { x: 0.5, y: 0.5 },    // Center (for display purposes)
-    { x: 0.9, y: 0.35 },   // Top Right (Seat 1)
-    { x: 0.9, y: 0.65 },   // Middle Right (Seat 2)
-    { x: 0.75, y: 0.85 },  // Bottom Right (Seat 3)
-    { x: 0.5, y: 0.85 },   // Bottom (Seat 4)
-    { x: 0.25, y: 0.85 },  // Bottom Left (Seat 5)
-    { x: 0.1, y: 0.65 },   // Middle Left (Seat 6)
-    { x: 0.1, y: 0.35 },   // Top Left (Seat 7)
-    { x: 0.25, y: 0.15 },  // Top Left-Center (Seat 8)
-    { x: 0.75, y: 0.15 }   // Top Right-Center (Seat 9)
+    { x: 0.75, y: 0.15 },  // Top Right-Center (Seat 1)
+    { x: 0.9, y: 0.35 },   // Top Right (Seat 2)
+    { x: 0.9, y: 0.65 },   // Middle Right (Seat 3)
+    { x: 0.75, y: 0.85 },  // Bottom Right (Seat 4)
+    { x: 0.5, y: 0.85 },   // Bottom (Seat 5)
+    { x: 0.25, y: 0.85 },  // Bottom Left (Seat 6)
+    { x: 0.1, y: 0.65 },   // Middle Left (Seat 7)
+    { x: 0.1, y: 0.35 },   // Top Left (Seat 8)
+    { x: 0.25, y: 0.15 }   // Top Left-Center (Seat 9)
   ];
 
   // Function to render the table and players
